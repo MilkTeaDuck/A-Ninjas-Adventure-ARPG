@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dmxjrd8dxulv8"
-path="res://.godot/imported/SpriteSheet16x16.png-3b004ea2f46aaaa1b12d845c7e5da945.ctex"
+path="res://.godot/imported/AnimatedFlower.png-db46aea2c6f422f87df2d36c2b9278b8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Art/Backgrounds/Animated/Plant/SpriteSheet16x16.png"
-dest_files=["res://.godot/imported/SpriteSheet16x16.png-3b004ea2f46aaaa1b12d845c7e5da945.ctex"]
+source_file="res://Art/Backgrounds/Animated/Plant/AnimatedFlower.png"
+dest_files=["res://.godot/imported/AnimatedFlower.png-db46aea2c6f422f87df2d36c2b9278b8.ctex"]
 
 [params]
 
