@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://c1v2u3nrt6npb"]
+
+[ext_resource type="Texture2D" uid="uid://bfdl212qww4tn" path="res://Art/Actor/Characters/GreenNinja/SpriteSheet.png" id="1_fs2uf"]
+[ext_resource type="Script" path="res://player/player.gd" id="1_h8nnw"]
+
+[node name="Player" type="CharacterBody2D"]
+script = ExtResource("1_h8nnw")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(9, 8)
+texture = ExtResource("1_fs2uf")
+hframes = 4
+vframes = 7
+frame = 1
