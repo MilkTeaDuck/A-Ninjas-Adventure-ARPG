@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://c1v2u3nrt6npb"]
+[gd_scene load_steps=10 format=3 uid="uid://c1v2u3nrt6npb"]
 
 [ext_resource type="Texture2D" uid="uid://bfdl212qww4tn" path="res://Art/Actor/Characters/GreenNinja/SpriteSheet.png" id="1_fs2uf"]
 [ext_resource type="Script" path="res://player/player.gd" id="1_h8nnw"]
@@ -99,6 +99,9 @@ _data = {
 "walkUp": SubResource("Animation_u8mhh")
 }
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_l5sdq"]
+size = Vector2(14, 4)
+
 [node name="Player" type="CharacterBody2D"]
 position = Vector2(-8, -16)
 script = ExtResource("1_h8nnw")
@@ -114,3 +117,7 @@ vframes = 7
 libraries = {
 "": SubResource("AnimationLibrary_jrkdi")
 }
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(8, 14)
+shape = SubResource("RectangleShape2D_l5sdq")
